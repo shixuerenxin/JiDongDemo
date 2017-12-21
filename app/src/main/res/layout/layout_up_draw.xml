@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F9CDAD"
+    >
+    <com.example.looptextview.LooperTextView
+        android:id="@+id/looperview"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="10px"
+        android:background="#00ffff"
+        android:padding="10dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JiDongDemo.iml" filepath="$PROJECT_DIR$/JiDongDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qizhiwei20171214/qizhiwei20171214.iml" filepath="$PROJECT_DIR$/qizhiwei20171214/qizhiwei20171214.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qizhiwei20171215/qizhiwei20171215.iml" filepath="$PROJECT_DIR$/qizhiwei20171215/qizhiwei20171215.iml" />
+    </modules>
+  </component>
+</project>

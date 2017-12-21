@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="165dp"
+              android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textColor="#ff0000"
+            android:background="#00ffb2"
+            android:text="京东秒杀"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.bwei.jidongdemo.view.MyGridView
+        android:numColumns="2"
+        android:id="@+id/gv_head_miao_item2"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"></com.bwei.jidongdemo.view.MyGridView>
+</LinearLayout>

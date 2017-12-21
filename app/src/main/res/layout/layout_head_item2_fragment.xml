@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="165dp"
+              android:orientation="vertical"
+    >
+
+    <GridView
+        android:numColumns="6"
+        android:id="@+id/gv_head_item2"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"></GridView>
+    <com.bwei.jidongdemo.view.LooperTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ltv"></com.bwei.jidongdemo.view.LooperTextView>
+</LinearLayout>
