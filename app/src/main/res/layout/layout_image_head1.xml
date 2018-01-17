@@ -4,6 +4,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
     android:padding="10dp">
+    <!--<&#45;&#45;?-->
     <ImageView
         android:layout_gravity="center"
         android:id="@+id/iv_head_item1"
