@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.qzw.jidongdemo.view.MyGridView
+        android:id="@+id/gv_jiu1"
+        android:numColumns="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.qzw.jidongdemo.view.MyGridView>
+</LinearLayout>

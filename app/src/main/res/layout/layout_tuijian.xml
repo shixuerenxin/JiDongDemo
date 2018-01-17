@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
-    <GridView
-        android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#f0f0f0"
+        android:background="#ff0ff0"
+        android:text="最新推荐"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <com.qzw.jidongdemo.view.MyGridView
+        android:id="@+id/gv_tui"
+        android:numColumns="2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </GridView>
+    </com.qzw.jidongdemo.view.MyGridView>
 
 </LinearLayout>

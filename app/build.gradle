@@ -4,8 +4,8 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.bwei.jidongdemo"
-        minSdkVersion 15
+        applicationId "com.qzw.jidongdemo"
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -17,14 +17,31 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']  /**在libs文件夹下找so文件*/
+        }
+    }
 }
 
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs' /**在libs文件夹下找aar文件*/
+        maven { url "https://jitpack.io" }
+    }
+}
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    //retrofit
 
+    //Rxjava2
+
+    //让retrofit支持Rxjava2
+    /**编译ijkplayer-java-release.aar文件*/
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
@@ -39,5 +56,13 @@ dependencies {
     compile 'cn.yipianfengye.android:zxing-library:2.1'
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     compile 'com.facebook.fresco:fresco:1.5.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.squareup.retrofit2:retrofit:+'
+    compile 'com.squareup.retrofit2:converter-gson:+'
+    compile 'io.reactivex.rxjava2:rxjava:+'
+    compile 'io.reactivex.rxjava2:rxandroid:+'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:+'
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.2'
+    compile 'com.github.open-android:IjkPlayer:1.0.0'
     testCompile 'junit:junit:4.12'
 }

@@ -5,8 +5,8 @@
               android:orientation="vertical">
 
 <LinearLayout
+    android:background="#ff0000"
     android:id="@+id/ll_shou"
-    android:background="#ffb700"
     android:layout_alignParentTop="true"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -27,11 +27,13 @@
             android:layout_width="20dp"
             android:layout_height="20dp"/>
         <TextView
+            android:textColor="#ffffff"
             android:text="扫一扫"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <EditText
+        android:textColor="#fff"
         android:layout_gravity="center_vertical"
         android:layout_weight="8"
         android:hint="寻找宝贝、店铺"
@@ -52,6 +54,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"/>
         <TextView
+            android:textColor="#fff"
             android:text="消息"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -59,9 +62,8 @@
 
 </LinearLayout>
     <com.jcodecraeer.xrecyclerview.XRecyclerView
-        android:id="@+id/xrv_head"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
+        android:id="@+id/xrv_head"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

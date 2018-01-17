@@ -16,9 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>
-    <com.bwei.jidongdemo.view.MyGridView
+    <com.qzw.jidongdemo.view.MyGridView
         android:numColumns="2"
         android:id="@+id/gv_head_miao_item2"
         android:layout_width="match_parent"
-        android:layout_height="165dp"></com.bwei.jidongdemo.view.MyGridView>
+        android:layout_height="165dp"></com.qzw.jidongdemo.view.MyGridView>
 </LinearLayout>

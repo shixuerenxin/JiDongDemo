@@ -10,8 +10,14 @@
         android:id="@+id/gv_head_item2"
         android:layout_width="match_parent"
         android:layout_height="165dp"></GridView>
-    <com.bwei.jidongdemo.view.LooperTextView
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/gv_head_item2"
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+    </android.support.v4.view.ViewPager>-->
+    <com.qzw.jidongdemo.view.LooperTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ltv"></com.bwei.jidongdemo.view.LooperTextView>
+        android:id="@+id/ltv"></com.qzw.jidongdemo.view.LooperTextView>
 </LinearLayout>

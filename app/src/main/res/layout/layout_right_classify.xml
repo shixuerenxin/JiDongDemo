@@ -7,12 +7,12 @@
     android:id="@+id/tv_right_name"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
-    <com.bwei.jidongdemo.view.MyGridView
+    <com.qzw.jidongdemo.view.MyGridView
         android:numColumns="3"
         android:id="@+id/gv_right_show"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.bwei.jidongdemo.view.MyGridView>
+    </com.qzw.jidongdemo.view.MyGridView>
 
 </LinearLayout>

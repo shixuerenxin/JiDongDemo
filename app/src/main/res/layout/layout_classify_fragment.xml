@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:background="#66ffffff"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="horizontal">
-    <android.support.v7.widget.RecyclerView
+              android:orientation="vertical">
+    <RelativeLayout
         android:background="#ffffff"
-        android:layout_weight="1"
-        android:layout_marginBottom="50dp"
-        android:id="@+id/rlv_left_classify"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </android.support.v7.widget.RecyclerView>
-    <android.support.v7.widget.RecyclerView
-        android:background="#ffffff"
-        android:layout_weight="4"
-        android:id="@+id/rlv_right_classify"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textSize="20sp"
+            android:text="分类"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp">
+>
+        <android.support.v7.widget.RecyclerView
 
-    </android.support.v7.widget.RecyclerView>
+            android:layout_weight="1"
+            android:id="@+id/rlv_left_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.RecyclerView
+
+            android:layout_weight="4"
+            android:id="@+id/rlv_right_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
 
 
 </LinearLayout>
